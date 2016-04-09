@@ -19,11 +19,12 @@ google.appengine.samples = google.appengine.samples || {};
 google.appengine.samples.hello = google.appengine.samples.hello || {};
 
 /**
- * Client ID of the application (from the APIs Console).
+ * TODO: Input Client ID of the application (from the APIs Console).
  * @type {string}
  */
+ 
 google.appengine.samples.hello.CLIENT_ID =
-    'replace this with your web application client ID';
+    "305400049619-lb53jd8quhubcqtpkbpn9cddvp83t918.apps.googleusercontent.com";
 
 /**
  * Scopes used by the application.

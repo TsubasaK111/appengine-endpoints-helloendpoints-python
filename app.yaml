@@ -4,10 +4,9 @@
 # for details.
 
 # TODO: Enter your application id below. If you have signed up
-# using cloud.google.com/console use the "project id" for your application
-# id.
-application: your-app-id
-version: 1
+# using cloud.google.com/console use the "project id" for your application id.
+application: tsubasak111-helloendpoints
+version: 3
 runtime: python27
 threadsafe: true
 api_version: 1
@@ -15,8 +14,7 @@ api_version: 1
 # Handlers tell App Engine how to route requests to your application.
 handlers:
 
-# The following three handlers route requests to static resources: JS, CSS,
-# and HTML.
+# The following 3 handlers route requests to static resources: JS/CSS/HTML.
 - url: /js
   static_dir: static/js
 - url: /bootstrap
